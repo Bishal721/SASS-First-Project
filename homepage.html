@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My SCSS Library</title>
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-secondary text-white">
+      <div class="container">
+        <h1 class="site-title">Scss Designs</h1>
+        <ul class="display-f">
+          <li class="ml-1 text-hover-primary"><a href="#work">My Work</a></li>
+          <li class="ml-1 text-hover-primary"><a href="#about">About Me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+      <div class="row justify-center">
+        <div class="col-12-xs col-5-md">
+          <h2>
+            <div class="font-xxl">Make Better</div>
+            <div class="font-xxl text-secondary">Website with SCSS</div>
+          </h2>
+          <p class="mt-2 mb-3 text-gray">
+            This is the Static website made with custom SCSS.
+          </p>
+          <a
+            href="#work"
+            class="btn-outlined-secondary text-secondary text-hover-white"
+            >My Works</a
+          >
+        </div>
+        <div class="col-12-xs col-5-md">
+          <img src="/img/laptop.svg" alt="" />
+        </div>
+      </div>
+
+      <section id="about" class="bg-secondary-light-9 mt-5 pt-4 pb-4">
+        <div class="container">
+          <h2 class="mb-2">About Scss Designs</h2>
+          <p>
+            SASS (Syntactically Awesome StyleSheets) is a preprocessor language
+            that adds power and flexibility to CSS (Cascading Style Sheets). It
+            allows you to write more efficient, modular, and maintainable CSS
+            code.
+          </p>
+          <p class="mt-1">
+            With SASS, you can define variables to store values that can be
+            reused throughout your code, making it more efficient and
+            maintainable. You can also nest selectors and rules to create a more
+            organized and structured CSS, and import other SASS files within
+            your code to avoid duplication. Additionally, you can break up your
+            CSS into smaller, reusable pieces called partials, define custom
+            functions to perform complex calculations or operations, and create
+            reusable sets of styles with mixins by using SASS.
+          </p>
+        </div>
+      </section>
+
+      <!-- work section -->
+      <section id="work" class="mt-5">
+        <div class="container">
+          <h2 class="mb-2">Some of My Work</h2>
+          <div class="row gap-2">
+            <div class="col-12-xs col-6-md col-3-lg">
+              <div class="card p-0">
+                <h3 class="card-title m-1">
+                  Mario Club
+                  <span class="badge-primary text-white ml-1">new</span>
+                </h3>
+                <img src="/img/mario.png" alt="" />
+                <p class="m-1">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Totam, hic!
+                </p>
+              </div>
+            </div>
+            <div class="col-12-xs col-6-md col-3-lg">
+              <div class="card p-0">
+                <h3 class="card-title m-1">Foods</h3>
+                <img src="/img/food.png" alt="" />
+                <p class="m-1">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Totam, hic!
+                </p>
+              </div>
+            </div>
+            <div class="col-12-xs col-6-md col-3-lg">
+              <div class="card p-0">
+                <h3 class="card-title m-1">Just Add Marmite</h3>
+                <img src="/img/marmite.png" alt="" />
+                <p class="m-1">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Totam, hic!
+                </p>
+              </div>
+            </div>
+            <div class="col-12-xs col-6-md col-3-lg">
+              <div class="card p-0">
+                <h3 class="card-title m-1">My Notes</h3>
+                <img src="/img/notes.png" alt="" />
+                <p class="m-1">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Totam, hic!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-center mt-2">
+            <button class="btn-secondary text-white font-md col-2-md">
+              View All
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-secondary-light-5 pt-3 pb-3 mt-5 br-sm">
+        <div class="container">copyright 2023 Scss Designs</div>
+      </footer>
+    </div>
+  </body>
+</html>
